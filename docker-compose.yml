@@ -39,7 +39,7 @@ services:
       SPRING_DATASOURCE_USERNAME: "root"
       SPRING_DATASOURCE_PASSWORD: "qwerty"
     ports:
-     - 8090:8090
+      - 8090:8090
           
   db:
     image: mysql
