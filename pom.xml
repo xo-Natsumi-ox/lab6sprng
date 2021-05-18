@@ -99,7 +99,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>ua.lviv.iot.App</mainClass>
+                            <mainClass>java.com.shevchuk.Application</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
@@ -129,7 +129,7 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.8.0</version>
                 <configuration>
-                    <release>13</release>
+                    <release>11</release>
                 </configuration>
             </plugin>
 
