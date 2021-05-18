@@ -47,7 +47,7 @@ services:
       - data-volume:/var/lib/mysql
     container_name: db
     environment:
-      - MYSQL_ROOT_PASSWORD=princessa
+      - MYSQL_ROOT_PASSWORD=qwerty
       - MYSQL_DATABASE=lab6db
       - MYSQL_USER=diana
       - MYSQL_PASSWORD=princessa
