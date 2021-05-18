@@ -49,8 +49,8 @@ services:
     environment:
       - MYSQL_ROOT_PASSWORD=qwerty
       - MYSQL_DATABASE=lab6db
-      - MYSQL_USER=root
-      - MYSQL_PASSWORD=qwerty
+      - MYSQL_USER=diana
+      - MYSQL_PASSWORD=nomi i504
     ports:
       - 3307:3306
     healthcheck:
