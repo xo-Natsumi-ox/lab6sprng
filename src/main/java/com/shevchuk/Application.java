@@ -1,13 +1,19 @@
 package com.shevchuk;
 
+import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
-public class Application {
+import java.sql.SQLException;
 
-    public static void main(String[] args) {
+@SpringBootApplication
+public class Application implements CommandLineRunner {
+    public static void main(String[] args) throws SQLException {
         SpringApplication.run(Application.class, args);
     }
 
+    @Override
+    public void run(String... args) throws Exception {
+        System.out.println("Ok");
+    }
 }

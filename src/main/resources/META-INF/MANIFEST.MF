@@ -1,1 +1,1 @@
-Main-Class: com.shevchuk.App
+Main-Class: com.shevchuk.Application
