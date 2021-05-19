@@ -99,7 +99,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>java.com.shevchuk.Application</mainClass>
+                            <mainClass>com.shevchuk.App</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
